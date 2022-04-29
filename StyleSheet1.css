@@ -1,0 +1,612 @@
+﻿body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+/*----------------------------------------------------Login Page---------------------------------*/
+div#log {
+    vertical-align: middle;
+    padding: 2% 2% 8% 2%;
+    margin: auto;
+    width: 40em;
+    border: 2.5px solid black;
+    height: 30em;
+}
+
+    div#log table {
+        font-weight: bold;
+        width: 100%;
+    }
+
+        div#log table tr td {
+            padding: 2%;
+            width: 100%;
+            font-weight: bold;
+        }
+
+.inpt {
+    width: 80%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 1%;
+}
+
+div#log table tr td .dgbtn {
+    width: 80%;
+    margin: 1%;
+    padding: 2% 0% 5% 0%;
+    background-color: black;
+    color: white;
+}
+
+    div#log table tr td .dgbtn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+/*----------------------------------------------------Menu page---------------------------------*/
+
+div#menupage {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 40em;
+}
+
+    div#menupage .menulist {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        width: 100%;
+        margin: 2%;
+        padding: 2%;
+        background-color: black;
+    }
+
+        div#menupage .menulist:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+/*-------------------------------------------------Order Menu page---------------------------------*/
+
+div#Ordermenupage {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 40em;
+}
+
+    div#Ordermenupage .ordermenulist {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        width: 100%;
+        margin: 2%;
+        padding: 2%;
+        background-color: black;
+    }
+
+        div#Ordermenupage .ordermenulist:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+
+/*-------------------------------------------------view order page---------------------------------*/
+div#vieworder1 {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+    div#vieworder1 .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+        div#vieworder1 .backordermenu:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+div#vieworderlist1:hover {
+    background-color: antiquewhite;
+}
+/*-------------------------------------------------view cancel order page---------------------------------*/
+div#vieworder2 {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+    div#vieworder2 .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+        div#vieworder2 .backordermenu:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+/*-------------------------------------------------create order page---------------------------------*/
+div#createorder {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+
+    div#createorder .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+        div#createorder .backordermenu:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+
+
+div#createorder1 table {
+    font-weight: bold;
+    margin: 2%;
+    width: 100%;
+}
+
+    div#createorder1 table tr td {
+        padding: 5px;
+        margin: auto;
+    }
+
+        div#createorder1 table tr td .createorderinput {
+            width: 25em;
+        }
+
+div#createorder3 .orderinsert {
+    width: 100%;
+    font-weight: bold;
+}
+
+div#createorder3 .orderinsert1 {
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#createorder .addproduct {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+    float: left;
+}
+
+    div#createorder .addproduct:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+div#createorder .addproduct1 {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+    float: right;
+}
+
+    div#createorder .addproduct1:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+/*-------------------------------------------------view order detail page---------------------------------*/
+
+div#orderdetail {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+    div#orderdetail .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+    div#orderdetail .backor dermenu:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+div#orderdetail1 table {
+    font-weight: bold;
+    margin: 2%;
+    width: 50%;
+}
+
+    div#orderdetail1 table tr td {
+        padding: 5px;
+        margin: auto;
+    }
+
+        div#orderdetail1 table tr td .createorderinput {
+            width: 25em;
+        }
+
+
+div#orderdetail .changestatus {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+    float: right;
+}
+
+    div#orderdetail .changestatus:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------view cancel order detail page---------------------------------*/
+
+div#cancelorderdetail {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin-bottom: 10%;
+    width: 90em;
+}
+
+    div#cancelorderdetail .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+        div#cancelorderdetail .backordermenu:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+div#cancelorderdetail1 table {
+    font-weight: bold;
+    margin: 2%;
+    width: 50%;
+}
+
+    div#cancelorderdetail1 table tr td {
+        padding: 5px;
+        margin: auto;
+    }
+
+        div#cancelorderdetail1 table tr td .createorderinput {
+            width: 25em;
+        }
+
+/*-------------------------------------------------view order page---------------------------------*/
+div#salereport {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+    div#salereport .backordermenu {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        margin: 2%;
+        padding: 1%;
+        background-color: black;
+    }
+
+        div#salereport .backordermenu:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+
+div#salesreport1 table {
+    font-weight: bold;
+    margin: 2%;
+    width: 100%;
+}
+
+    div#salesreport1 table tr td {
+        padding: 5px;
+        margin: auto;
+    }
+
+        div#salesreport1 table tr td .createorderinput {
+            width: 25em;
+        }
+
+
+div#salereport .selectyear {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+    float: left;
+}
+
+    div#salereport .selectyear:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+div#salereport div#syear {
+    font-weight: bold;
+    margin: 2%;
+    padding: 1%;
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------------------View inventory page-------------------------------------------------------
+
+*/
+div#inventoryReportMainForm .backInventoryMenu {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+}
+
+    div#inventoryReportMainForm .backInventoryMenu:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+div#mainbody {
+    width: 85%;
+    height: 100%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+div#header {
+    width: 100%;
+}
+
+.specialLabel {
+    font-weight: bolder;
+}
+
+div#uploadProductMainBody {
+    height: 100%;
+}
+
+btn#btnBack:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.specialbtn {
+    background-color: black;
+    width: 15em;
+    height: 5vh;
+    margin-top: 20px;
+    color: white;
+}
+
+    .specialbtn:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+
+
+.repeaterBtn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.specialbtn2 {
+    background-color: black;
+    width: 5em;
+    height: 5vh;
+    margin-top: 20px;
+    color: white;
+}
+
+
+    .specialbtn2:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+    }
+
+/*----------------------------------------------------view Inventory Report-------------*/
+div#inventoryReportMainForm {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 90em;
+}
+
+
+div#productList:hover {
+    background-color: antiquewhite;
+}
+
+div.col-xs-2 {
+    padding: 0.5%;
+}
+
+
+/*-------------------------------------------------------------------Inventory menu page-------------------------------------------------*/
+div#inventorymenupage {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 40em;
+}
+
+    div#inventorymenupage .inventorymenulist {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        width: 100%;
+        margin: 2%;
+        padding: 2%;
+        background-color: black;
+    }
+
+        div#inventorymenupage .inventorymenulist:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+/*-------------------------------------------------------------------Staff menu page-------------------------------------------------*/
+div#smenu {
+    vertical-align: middle;
+    padding: 5% 5% 10% 5%;
+    margin: auto;
+    width: 40em;
+    color: black;
+}
+
+    div#smenu .slist {
+        color: white;
+        border: solid 2px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: bold;
+        width: 100%;
+        margin: 2%;
+        padding: 2%;
+        background-color: black;
+    }
+
+        div#smenu .slist:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+
+
+.regbutton12 {
+    color: white;
+    border: solid 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold;
+    margin: 2%;
+    padding: 1%;
+    background-color: black;
+    float: none;
+}
+
+    .regbutton12:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+    }
+
+.profitwidth {
+    width: 12em;
+}
